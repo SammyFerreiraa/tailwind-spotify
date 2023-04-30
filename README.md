@@ -4,7 +4,6 @@
   <a href="#-about">About</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-preview">Preview</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-tecnologies">Tecnologies</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-links">Links</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
 </p>
 
 <p align="center">
@@ -31,9 +30,5 @@ This project was developed with the following technologies:
 - NextJs
 - Tailwind
 - TypeScript
-
-## 🧾 Links
-
-Go to the project [HERE](https://tmdbmovielib.vercel.app).
 
 ---
