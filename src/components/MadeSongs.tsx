@@ -1,21 +1,58 @@
 import Image from "next/image";
 import React from "react";
 
+const ForYou = [
+  {
+    name: "Daily Mix 1",
+    img: "/fy1.jpeg",
+    authors: "Billie Eilish, Medasin, Olivia O'Brien e mais",
+  },
+  {
+    name: "Daily Mix 2",
+    img: "/fy2.jpeg",
+    authors: "JNS, 90s Pop Tour, JEANS e mais",
+  },
+  {
+    name: "Daily Mix 3",
+    img: "/fy3.jpeg",
+    authors: "Eminem, Busta Rhymes, Jack Harlow e maiss",
+  },
+  {
+    name: "Daily Mix 4",
+    img: "/fy4.jpeg",
+    authors: "Sia, Lewis Capaldi, James Arthur e mais",
+  },
+  {
+    name: "Daily Mix 5",
+    img: "/fy5.jpeg",
+    authors: "Febem, TOKIODK, SD9 e mais",
+  },
+  {
+    name: "Daily Mix 6",
+    img: "/fy6.jpeg",
+    authors: "Lorde, Lana Del Rey, King Princess e mais",
+  },
+];
+
 function MadeSongs() {
   return (
-    <a className="bg-white/5 p-3 rounded-md flex flex-col gap-2 hover:bg-white/10">
-      <Image
-        src="/album.jpeg"
-        className="w-full"
-        width={100}
-        height={100}
-        alt="Foto do Album"
-      />
-      <strong className="font-semibold">Daily Mix 1</strong>
-      <span className="text-xs text-zinc-500">
-        Wallows, COIN, girl in red and more
-      </span>
-    </a>
+    <>
+      {ForYou.map((item) => (
+        <a className="bg-white/5 p-3 rounded-md flex flex-col gap-2 hover:bg-white/10">
+          <Image
+            src={item.img}
+            className="w-full"
+            width={100}
+            height={100}
+            alt="Foto do Album"
+          />
+          <strong className="font-semibold">{item.name}</strong>
+          <span className="text-xs text-zinc-500">
+            {item.authors}
+          </span>
+        </a>
+      ))}
+    </>
   );
 }
 

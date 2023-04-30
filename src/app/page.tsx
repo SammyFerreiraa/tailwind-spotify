@@ -37,12 +37,7 @@ export default function Home() {
           </div>
 
           <div className="grid grid-cols-6 gap-4 mt-4">
-          <MadeSongs />
-          <MadeSongs />
-          <MadeSongs />
-          <MadeSongs />
-          <MadeSongs />
-          <MadeSongs />
+            <MadeSongs />
           </div>
         </main>
       </div>
