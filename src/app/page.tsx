@@ -23,6 +23,7 @@ export default function Home() {
           </div>
 
           <h1 className="font-semibold text-3xl mt-10">Good Afternoon</h1>
+          
           <div className="grid grid-cols-3 gap-4 overflow-hidden mt-4">
             <RecentPlaylist />
           </div>
